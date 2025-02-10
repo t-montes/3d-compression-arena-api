@@ -74,8 +74,6 @@ async function init() {
 // Helper function to validate access key
 function validateAccessKey(req, res, isMaster = false) {
     const authHeader = req.headers.authorization;
-    console.log(req.body);
-    console.log(req.headers.authorization);
     const endpoint = req.originalUrl;  // Get the endpoint path
     
     if (!authHeader || !authHeader.startsWith('Bearer ')) {
