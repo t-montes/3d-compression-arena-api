@@ -1,0 +1,4 @@
+.env
+logs.log
+leaderboard.json
+node_modules
